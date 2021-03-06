@@ -1,10 +1,10 @@
 import psycopg2
 
-db_host = '127.0.0.1'
-db_name = 'santa_luzia'
+db_host = 'IP'
+db_name = 'nome_banco_de_dados'
 db_port = '5432'
 db_user = 'postgres'
-db_password = '20101997'
+db_password = 'senha_so_bd'
 
 connect = psycopg2.connect(host=db_host, dbname=db_name, port = db_port, user=db_user, password=db_password)
 
